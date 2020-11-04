@@ -1,0 +1,9 @@
+Logs
+*.logs
+npm-debug.log*
+node_modules
+.npm
+.env
+.idea
+cypress/videos
+cypress/screenshots

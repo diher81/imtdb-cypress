@@ -1,0 +1,8 @@
+{
+  "url": "http://localhost:4243/api/movies",
+  "imdb": "tt123test",
+  "title": "Test Automation, The Movie",
+  "type": "movie",
+  "description": "Featuring Cypress Hill live!",
+  "year": 2020
+}

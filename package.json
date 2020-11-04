@@ -1,0 +1,24 @@
+{
+  "name": "imtdb-cypress",
+  "version": "1.0.0",
+  "description": "proof of concept: test automation for IMTDb: \"Internet Movie TestCoders Database\".",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^5.5.0",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "mocha",
+    "test:awesome": "mocha --reporter mochawesome || true",
+    "open:report": "open mochawesome-report/mochawesome.html"
+  },
+  "author": "Dirk Hermans",
+  "license": "ISC"
+}
